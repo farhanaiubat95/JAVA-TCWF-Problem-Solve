@@ -8,7 +8,6 @@ public class Main {
         int number;
         number=sc.nextInt();
         System.out.println("Number is : "+number);
-
         for (int i = 1; i <= 10; i++) {
             System.out.println(number+"X"+i+" = " + (number*i));
         }
